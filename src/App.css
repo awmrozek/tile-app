@@ -1,0 +1,71 @@
+/* Overall container for the app */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #eaeaea; /* Light background for contrast */
+    min-height: 100vh; /* Ensure full height */
+}
+
+/* Container for the tiles */
+.tiles-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow tiles to wrap to the next line */
+    justify-content: center; /* Center tiles horizontally */
+    margin-bottom: 20px;
+}
+
+/* Individual tile styling */
+.tile {
+    background-color: #0078d4; /* Windows 8 tile color */
+    color: white;
+    width: 150px; /* Fixed width for tiles */
+    height: 150px; /* Fixed height for tiles */
+    margin: 10px; /* Space between tiles */
+    padding: 10px; /* Inner padding */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: transform 0.2s; /* Smooth scaling on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Scale effect on hover */
+.tile:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for sections */
+.section {
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit width for larger screens */
+    padding: 20px; /* Inner padding */
+    margin: 10px 0; /* Vertical margin */
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    .tile {
+        width: 200px; /* Wider tiles for larger screens */
+        height: 200px; /* Taller tiles for larger screens */
+    }
+
+    .section {
+        padding: 30px; /* More padding for larger screens */
+    }
+}
+
+@media (min-width: 900px) {
+    .tiles-container {
+        justify-content: space-around; /* Space tiles evenly */
+    }
+
+    .tile {
+        width: 250px; /* Even wider tiles for extra-large screens */
+        height: 250px; /* Taller tiles for extra-large screens */
+    }
+}
+

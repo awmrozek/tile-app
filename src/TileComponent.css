@@ -1,0 +1,18 @@
+.tile {
+    background-color: #0078d4; /* Windows 8 tile color */
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.tile:hover {
+    transform: scale(1.05);
+}
+
