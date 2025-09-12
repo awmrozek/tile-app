@@ -35,7 +35,9 @@ const App = () => {
             </section>
             <section id="culture" className="section">
             <h2>Culture and Values</h2>
-            <p>We get new life from supportive work culture. That is why we believe good cooperation is crucial for success.</p>
+            <p>We do the right things and take responsibility for them. We know our purpose and we are constantly improving for you.</p>
+            <p>Supportive work culture is at core of our beliefs. That is why we believe good cooperation is crucial for success. We listen to your problems and comments, we are present on each meeting both with body and spirit. We contribute to supportive culture by understanding that every individual is different. Customer is always at core of our interest, and you as customer will be treated with great interest.</p>
+            <p>Everybody here is treated equaly and with great respect: both customers and actors who cooperate with us.</p>
             </section>
         </div>
     </div>
