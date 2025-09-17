@@ -6,12 +6,12 @@ const content = {
     systems: {
         title: "Systems Engineering",
         text: `
-We provide consistent systems for your institution. Master programme in computer engineering with experience in software development make us fluent to solve your software problems: from DevOps, systems architecture, module design to programming and automation.`
+I provide consistent systems for your institution. Master programme in computer engineering with experience in software development make me fluent to solve your software problems: from DevOps, systems architecture, module design to programming and automation.`
     },
     solutions: {
         title: "Solutions",
         text: `
-We solve problems in systematic and structured way, which guarantees reliable time estimates and solutions. We like to understand how the solution works in its environment. Teamwork makes the dream work.`
+I solve problems in systematic and structured way, which guarantees reliable time estimates and solutions. I like to understand how the solution works in its environment. Teamwork makes the dream work.`
     },
     ai: {
         title: "AI",
@@ -27,11 +27,11 @@ Our involvement with AI includes, but does not limit to:
     culture: {
         title: "Culture and Values",
         text: `
-We do the right things and take responsibility for them. We know our purpose and we are constantly improving for you. Supportive work culture is at core of our beliefs. That is why we believe good cooperation is crucial for success.
+I do the right things and take responsibility for them. We know our purpose and I am constantly improving for you. Supportive work culture is at core of our beliefs. That is why we believe good cooperation is crucial for success.
 
-We listen to your problems and comments, we are present on each meeting both with body and spirit. We contribute to supportive culture by understanding that every individual is different.
+I listen to your problems and comments, I am present on each meeting both with body and spirit. I contribute to supportive culture by understanding that every individual is different.
 
-Customer is always at core of our interest, and you as customer will be treated with great interest. Everybody here is treated equally and with great respect: both customers and actors who cooperate with us.
+Customer is always at core of my interest, and you as customer will be treated with great interest. Everybody here is treated equally and with great respect: both customers and actors who cooperate with us.
         `
     }
 };

@@ -84,3 +84,7 @@
     transform: translate(-50%, -50%); /* Center the video */
 }
 
+.footer {
+    background: gray;
+    color: white;
+}
