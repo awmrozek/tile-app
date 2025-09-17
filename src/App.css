@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    background-color: #eaeaea; /* Light background for contrast */
-    min-height: 100vh; /* Ensure full height */
+    /*padding: 20px;*/
+    /*background-color: #eaeaea; /* Light background for contrast */
+    min-height: 100%; /* Ensure full height */
 }
 
 /* Container for the tiles */
@@ -14,6 +14,9 @@
     flex-wrap: wrap; /* Allow tiles to wrap to the next line */
     justify-content: center; /* Center tiles horizontally */
     margin-bottom: 20px;
+    background-color: rgba(80, 80, 80, 0.3);
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
 /* Individual tile styling */
@@ -37,7 +40,7 @@
 
 /* Styling for sections */
 .section {
-    width: 100%; /* Full width */
+    /*width: 100%; /* Full width */
     max-width: 800px; /* Limit width for larger screens */
     padding: 20px; /* Inner padding */
     margin: 10px 0; /* Vertical margin */
@@ -67,5 +70,17 @@
         width: 250px; /* Even wider tiles for extra-large screens */
         height: 250px; /* Taller tiles for extra-large screens */
     }
+}
+
+.background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    /*height: 100%;*/
+    z-index: -1; /* Send video to the back */
+    transform: translate(-50%, -50%); /* Center the video */
 }
 
